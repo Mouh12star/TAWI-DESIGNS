@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tawi Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #f4f4f4;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 150px;
+      margin-bottom: 1rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      background: #fff9ec;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .portfolio {
+      background: #f0f0f0;
+    }
+    .portfolio h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+    .portfolio-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .about h2, .contact h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: auto;
+    }
+    .contact input, .contact textarea {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact button {
+      padding: 0.8rem;
+      font-size: 1rem;
+      background: #d4af37;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f4f4f4;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Tawi Rebrand Logo White.jpg" alt="Tawi Design Logo">
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Creative Solutions, Timeless Design</h1>
+    <p>Bringing brands to life with purposeful, beautiful design.</p>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <img src="Business card front.jpg" alt="Davanns Group Logo">
+      <img src="SIAFU BRANDS.jpg" alt="Siafu Brands Logo">
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Tawi Design</h2>
+    <p>At <strong>Tawi Design</strong>, we believe in the power of visual storytelling. With a keen eye for detail and a passion for creativity, we craft compelling designs that speak volumes. Whether it’s branding, logo creation, or promotional graphics, we’re dedicated to delivering work that not only looks stunning but also connects with your audience.</p>
+    <p>Founded with the vision of helping businesses stand out, we blend strategy with style to bring your ideas to life. Let us help you make your mark—boldly and beautifully.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Tawi Design. All rights reserved.
+  </footer>
+</body>
+</html>
